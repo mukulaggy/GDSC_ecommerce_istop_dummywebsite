@@ -23,7 +23,7 @@ to your GitHub account. This creates a copy of the project that you can modify.
 2.Clone the project
 
 ```bash
-  git clone https://github.com/your_user_name/GDSC_ecommerce_istop_dummywebsite.git
+  git clone https://github.com/pccoe-acm-hacktoberfest-2023/GDSC_ecommerce_istop_dummywebsite.git
 ```
 
 Create branch
