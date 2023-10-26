@@ -8,7 +8,7 @@
 ```
 - Navigate to project directory.
 ```bash
-  cd Restaurant_website_HacktoberFest
+  cd GDSC_ecommerce_istop_dummywebsite
 ```
 - Create a new branch with a sensible name like your-name-add-hover-icons
 ```bash
