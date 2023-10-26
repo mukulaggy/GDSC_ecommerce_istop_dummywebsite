@@ -14,9 +14,7 @@ and more...
 
 🕸🧑‍💻 If you have some code you want to contribute, either directly submit a pull request or create an issue first, so then we can discuss it and/or I can assign the issue to you.
 
-# hacktoberfest summary
-Hacktoberfest is an event on GitHub or GitLab that encourages everyone to participate in open-source software development. To complete the challenge, you need to make four or more pull requests during the month of October. Successful pull requests earn you digital badges and provide an opportunity to learn more about git, GitHub or GitLab, and in this project's case, web development, JavaScript, HTML, and CSS.
-
+# Getting Started
 
 1. **Fork the Repository:** Begin by forking our git clone
       [https://github.com/pccoe-acm-hacktoberfest-2023/GDSC_ecommerce_istop_dummywebsite.git]
