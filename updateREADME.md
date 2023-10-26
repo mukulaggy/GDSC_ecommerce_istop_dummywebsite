@@ -36,15 +36,6 @@ Create branch
 - Make your changes
 
 - Commit and Push
-- 
-Create branch
-```
-  git checkout -b "<your branch name>"
-```
-
-- Make your changes
-
-- Commit and Push
 
 ```
     git add .
