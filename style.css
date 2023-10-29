@@ -58,6 +58,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 80vh;
+    filter: blur(0.3px); /* Set the blur intensity, you can adjust the value as needed */
+	background-color: rgba(0, 0, 0, 0.1); /* Set the background transparency, the last value is the opacity, with a range from 0 to 1 */
 }
 
 .main .main_content {
@@ -68,7 +70,7 @@
 }
 
 .main .main_content h2 {
-    color: rgb(225, 225, 225);
+    color: #333;
     font-size: 50px;
     font-family: cosmic, sans-serif;
     font-weight: bolder;
@@ -120,6 +122,7 @@
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: rgba(255, 255, 255, 40);
 }
 
 .product .product_container .item {
@@ -231,6 +234,7 @@
     width: 40%;
     padding: 20px;
     float: left;
+    margin-left: 50px;
 }
 
 .keypoint .key_container .key_content li {
@@ -245,8 +249,8 @@
 
 .keypoint .key_container .key_img {
     width: 40%;
-    float: tight;
-    margin-left: 100px;
+    float: right;
+    margin-left: 160px;
 }
 
 .keypoint .key_container .key_img img {
@@ -254,7 +258,7 @@
 
 }
 
-testi {
+.testi {
     padding: 50px;
 }
 
@@ -292,7 +296,7 @@ testi {
 }
 
 .testi .testi_container .item .item_img img {
-    width: auto;
+    width: 88px;
     height: auto;
 
     margin-top: 100px;
@@ -314,9 +318,11 @@ testi {
     font-family: cosmic, sans-serif;
 
 }
+
 .team{
  padding: 50px;
 }
+
 .team h2{
     color: black;
     font-size: 35px;
@@ -382,15 +388,18 @@ testi {
     padding: 8px;
     outline: none;
     border: none;
+    border-radius: 5px;
 }
 .feed .feed_form form button{
-    width: 30%;
+    width: 10%;
+	height: 40px;
     margin:10px;
     padding: 8px;
     outline: none;
     border: none;
     background-color: purple;
     color: white;
+    border-radius: 5px;
 }
 .about_us{
     padding:100px;
@@ -440,6 +449,8 @@ testi {
   .container1 {
     width: 500px;
     margin: 0 auto;
+    padding: 20px;
+	border-radius: 10px;
   }
   
   h1 {
@@ -447,20 +458,27 @@ testi {
   }
   
   form {
-    margin-top: 20px;
+    margin-top: 60px;
+	text-align: center;
   }
   
   input {
-    width: 100%;
+    width: 80%;
+	height: 50px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     border: 1px solid #ccc;
+	border-radius: 5px; 
   }
   
   input[type="submit"] {
+    width: 25%;
     background-color: #000;
     color: #fff;
     cursor: pointer;
+    margin-top: 20px;
+	border-radius: 5px;
+    padding: 15px;
   }
   
 
